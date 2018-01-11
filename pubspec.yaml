@@ -1,0 +1,25 @@
+name: flutter_webview
+description: Example showing how to serve files from asset to Webview.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_webview_plugin: ^0.0.9+1
+  jaguar: ^0.7.1
+  jaguar_flutter_asset: ^0.7.1
+  cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/index.html
+    - assets/css/main.css
+    - assets/css/styles.css
+    - assets/help/index.html
+    - assets/img/jaguar.jpg
+    - assets/index.html
