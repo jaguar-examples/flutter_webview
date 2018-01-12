@@ -5,8 +5,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_webview_plugin: ^0.0.9+1
-  jaguar: ^0.7.1
-  jaguar_flutter_asset: ^0.7.1
+  jaguar: ^1.1.5
+  jaguar_flutter_asset: ^1.1.5
   cupertino_icons: ^0.1.0
 
 dev_dependencies:
