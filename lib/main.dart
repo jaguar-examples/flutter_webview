@@ -52,8 +52,7 @@ class MyHomePage extends StatelessWidget {
       ),
       floatingActionButton: new FloatingActionButton(
         onPressed: () {
-          flutterWebviewPlugin.launch('http://localhost:8080/',
-              fullScreen: true);
+          flutterWebviewPlugin.launch('http://localhost:8080/');
         },
         tooltip: 'Launch',
         child: new Icon(Icons.web),
