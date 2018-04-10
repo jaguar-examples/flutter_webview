@@ -19,6 +19,5 @@ on port 8080.
 It launches a webview on click of a button and point it to `http://localhost:8080/`.
 
 ```dart
-  flutterWebviewPlugin.launch('http://localhost:8080/',
-      fullScreen: true);
+  flutterWebviewPlugin.launch('http://localhost:8080/');
 ```
