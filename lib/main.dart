@@ -7,13 +7,13 @@ import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 final flutterWebviewPlugin = new FlutterWebviewPlugin();
 
 main() async {
-  final server = new Jaguar();
-  server.addApi(new FlutterAssetServer());
-  await server.serve();
+  final server = Jaguar();
+  server.addRoute(serveFlutterAssets());
+  await server.serve(logRequests: true);
 
   server.log.onRecord.listen((r) => print(r));
 
-  runApp(new MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
