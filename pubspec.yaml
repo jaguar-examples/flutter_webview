@@ -16,10 +16,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-dependency_overrides:
-  jaguar_flutter_asset:
-    path: ../jaguar_flutter_asset
-
 flutter:
   uses-material-design: true
 
